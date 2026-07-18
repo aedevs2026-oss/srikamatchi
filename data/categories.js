@@ -1,0 +1,58 @@
+﻿export const categories = [
+  {
+    id: "tv",
+    name: "Televisions",
+    slug: "tv",
+    description: "LED & Smart TVs with BOGO and EMI offers",
+    image: "/category/luxury_retail_product_photography_large_bezel_less_smart_led_tv_with_a_vibrant.png",
+  },
+  {
+    id: "fridge",
+    name: "Refrigerators",
+    slug: "fridge",
+    description: "Festive fridge deals with combo savings",
+    image: "/category/luxury_retail_product_photography_modern_double_door_refrigerator_with_a.png",
+  },
+  {
+    id: "washing-machine",
+    name: "Washing Machines",
+    slug: "washing-machine",
+    description: "Washer, semi & fully automatic models",
+    image: "/category/luxury_retail_product_photography_front_load_washing_machine_with_a_modern.png",
+  },
+  {
+    id: "ac",
+    name: "Air Conditioners",
+    slug: "ac",
+    description: "Cooling comfort with No Cost EMI",
+    image: "/category/luxury_retail_product_photography_modern_wall_mounted_split_air_conditioner.png",
+  },
+  {
+    id: "mobiles",
+    name: "Mobiles",
+    slug: "mobiles",
+    description: "Top brands with exchange & free gifts",
+    image: "/category/luxury_retail_product_photography_multiple_premium_flagship_smartphones.png",
+  },
+  {
+    id: "appliances",
+    name: "Home Appliances",
+    slug: "appliances",
+    description: "Kitchen & home essentials",
+    image: "/category/luxury_retail_product_photography_home_appliances_group_mixer_grinder_microwave.png",
+  },
+  {
+    id: "furniture",
+    name: "Furniture",
+    slug: "furniture",
+    description: "Steel, wooden & sofa combos",
+    image: "/category/luxury_retail_product_photography_luxury_bedroom_furniture_setup_wooden_bed.png",
+  },
+  {
+    id: "combo",
+    name: "Combo Offers",
+    slug: "combo",
+    description: "Aadi, marriage & festival packages",
+    image: "/category/luxury_retail_product_photography_premium_festive_combo_package_smart_tv.png",
+  },
+];
