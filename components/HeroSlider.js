@@ -15,7 +15,7 @@ export default function HeroSlider({ slides }) {
 
   return (
     <section className="relative overflow-hidden bg-[#1F1F1F]">
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 w-full">
         {slides.map((item, i) => (
           <div
             key={item.id}
@@ -28,7 +28,7 @@ export default function HeroSlider({ slides }) {
               alt=""
               fill
               priority={i === 0}
-              sizes="100vw"
+              sizes="(max-width: 768px) 100vw, 100vw"
               className="h-full w-full object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-black/10 to-transparent" />
@@ -36,7 +36,7 @@ export default function HeroSlider({ slides }) {
         ))}
       </div>
 
-      <div className="relative mx-auto flex min-h-[70vh] items-end justify-center px-4 py-10 sm:min-h-[78vh] md:min-h-[82vh] md:py-14">
+      <div className="relative mx-auto flex min-h-[195px] w-full items-end justify-center px-4 py-6 sm:min-h-[78vh] md:min-h-[82vh] md:py-14">
         <div className="flex gap-2" role="tablist" aria-label="Hero slides">
           {slides.map((item, i) => (
             <button
